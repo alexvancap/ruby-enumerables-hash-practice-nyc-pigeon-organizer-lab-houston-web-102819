@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
         end
 
         if !pigeon_name.has_key?(key)
-          new_hash[key]
+          new_hash[key] = []
         end
       }
     }
