@@ -2,7 +2,7 @@ def nyc_pigeon_organizer(data)
   new_hash = {}
 
   data.each{|key, value|
-     puts data[key]
+     puts data[key][Ø]
    }
 end
 
