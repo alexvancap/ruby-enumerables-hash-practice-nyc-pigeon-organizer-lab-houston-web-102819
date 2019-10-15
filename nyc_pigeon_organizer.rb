@@ -2,9 +2,11 @@ def nyc_pigeon_organizer(data)
   new_hash = {}
 
   data.each{|key, value|
+    value.each{|key|
     names = {}
-    if 
+    if names != new_hash[0]
      puts data[key][:purple]
+   }
    }
 end
 
