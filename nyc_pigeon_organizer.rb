@@ -7,6 +7,7 @@ def nyc_pigeon_organizer(data)
         if new_hash.has_key?(names)
           pigeon_name = []
         end
+        puts pigeon_name
       }
     }
    }
