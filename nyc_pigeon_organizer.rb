@@ -4,7 +4,9 @@ def nyc_pigeon_organizer(data)
   data.each{|key, value|
     puts key
     value.each{|key1, value1|
-      puts value1
+      value1.each{|names|
+        puts names
+      }
     }
    }
 end
