@@ -5,6 +5,7 @@ def nyc_pigeon_organizer(data)
     value.each{|key1, value1|
       value1.each{|names|
         if new_hash.has_key?(names)
+          pigeon_name = []
       }
     }
    }
