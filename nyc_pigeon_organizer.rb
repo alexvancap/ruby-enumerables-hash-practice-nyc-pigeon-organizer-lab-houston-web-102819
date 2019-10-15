@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
     if new_hash.include?(data[key][:purple])
     else
 
-    puts data[key][name]
+    puts data[key][names]
       puts 1
    end
    }
