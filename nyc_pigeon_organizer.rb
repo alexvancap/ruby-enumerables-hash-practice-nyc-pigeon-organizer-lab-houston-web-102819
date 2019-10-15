@@ -1,21 +1,21 @@
 def nyc_pigeon_organizer(data)
-  pigeons = {}
+  new_hash = {}
     data.each do |key, specs|
       specs.each do |value, names|
         names.each do |name|
-        if not pigeons.has_key?(name)
-          pigeons[name] = {}
+        if not new_hash.has_key?(name)
+          new_hash[name] = {}
         end
 
-        if not pigeons[name].has_key?(key)
-          pigeons[name][key] = []
+        if not new_hash[name].has_key?(key)
+          new_hash[name][key] = []
         end
 
-        pigeons[name][key] << value.to_s
+        new_hash[name][key] << value.to_s
       end
     end
   end
-  puts pigeons
+  puts new_hash
 end
 
 
