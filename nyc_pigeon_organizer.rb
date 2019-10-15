@@ -3,6 +3,8 @@ def nyc_pigeon_organizer(data)
 
   data.each{|key, value|
      puts value
+     puts '\n'
+     puts key
 
   }
 
