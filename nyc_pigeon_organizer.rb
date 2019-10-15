@@ -1,18 +1,19 @@
 def nyc_pigeon_organizer(data)
-  new_hash = {}
+  pigeons = {}
 
   data.each{|key, value|
     value.each{|key1, value1|
       value1.each{|name|
-        if !new_hash.has_key?(name)
-          new_hash[name] = []
-        end
+        if not pigeons.has_key?(name)
+       pigeons[name] = {}
+     end
 
-        if !new_hash[name].has_key?(key)
-          new_hash[name][key] = []
-        end
-        puts new_hash[key]
-      }
+     if not pigeons[name].has_key?(key)
+       pigeons[name][key] = []
+     end
+
+     pigeons[name][key] << value.to_s
+   end
     }
    }
 end
