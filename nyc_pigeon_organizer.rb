@@ -11,6 +11,7 @@ def nyc_pigeon_organizer(data)
         if !pigeon_name.has_key?(key)
           new_hash[key] = []
         end
+        puts key
       }
     }
    }
