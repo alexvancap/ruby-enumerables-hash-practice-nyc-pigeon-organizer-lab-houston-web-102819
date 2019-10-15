@@ -2,7 +2,7 @@ def nyc_pigeon_organizer(data)
   new_hash = {}
 
   data.each{|key, value|
-    value.each{|key|
+    value.each{|names|
     if new_hash.include?(data[key][:purple])
       puts data[key][:purple]
     else
