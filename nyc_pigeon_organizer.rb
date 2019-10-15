@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
 
   data.each{|key, value|
      puts key[0]
-
+   }
 end
 
 
