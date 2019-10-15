@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
     value.each{|names|
     if new_hash.include?(data[key][:purple])
     else
-      puts names
+      puts names[1]
    end
    }
    }
